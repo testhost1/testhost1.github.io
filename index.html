@@ -20,7 +20,7 @@ if (localStorage.kexStatus == "started") localStorage.kexUnsure = "unsure";
 
 var espMode = "";
 var xhr=new XMLHttpRequest();
-xhr.open("GET","http://+localStorage.ESPip+");
+xhr.open("GET","http://10.1.1.1/config.html");
 xhr.onload=function(){
  espMode = "yes";
  top.document.title+=" [ESP MODE]";
